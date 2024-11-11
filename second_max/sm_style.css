@@ -2,8 +2,8 @@
 
 body{
     margin:1vh 1vw;
-    background-color: beige;
-    color: black;
+    background-color: black;
+    color: white;
     user-select: none;
 }
 
@@ -13,18 +13,20 @@ body{
 
 input{
     background-color: transparent;
-    border: black solid 1px;
+    border: white solid 1px;
     border-radius: 1vh;
     padding: 2vh 2vw;
     font-family: 'Poppins', sans-serif;
     font-size: 2.15vh;
+    color-scheme: dark;
 }
 
 button{
     background-color: transparent;
-    border: black solid 1px;
+    border: white solid 1px;
     padding: 2vh 2vw;
     border-radius:1vh ;
+    color: white;
 }
 
 .form{
@@ -47,4 +49,22 @@ button{
     font-family: 'Poppins', sans-serif;
     font-size: 2vw;
     letter-spacing: 0.15cm;
+}
+
+
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    border: solid white 1px;
+    height: 7vh;
+    width: 21vw;
+    border-radius: 2vh;
+    padding: 2vh 2vw;
+}
+
+#result_val{
+    color: red;
+    font-size: 1.23vw;
 }

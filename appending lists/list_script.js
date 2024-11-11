@@ -5,5 +5,5 @@ function appendText(){
     valuescontainer.appendChild(value);
     value.innerHTML = inputText;
     document.getElementById('inputText').value = "";
-    document.getElementById('inputnum').focus();
+    document.getElementById('inputText').focus();
 }
