@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const mongo_url =
-  "mongodb+srv://archith1915:archith1915@cluster0.yh2o4.mongodb.net/";
+  "";
 
 const connectToMongo = async () => {
   mongoose.Promise = global.Promise;
@@ -15,12 +15,13 @@ const connectToMongo = async () => {
   }
 };
 
-const collection_name = "trainer";
+const collection_name = "catalogue";
 const collection_fields = {
-  name: String,
-  location: String,
-  technology: String,
-  phone_number: String,
+  title: String,
+  author: String,
+  publisher: String,
+  number_of_copies: String,
+  price: Number,
 };
 const collection_config = {
   timestamps: false,
