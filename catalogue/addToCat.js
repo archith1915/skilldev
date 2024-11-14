@@ -35,7 +35,7 @@ const createTrainer = async () => {
 
   try {
     const trainerModel = new TrainerModel({
-      _if: new mongoose.Types.ObjectId(),
+      _id: new mongoose.Types.ObjectId(),
       name: "Archith",
       location: "Mysuru",
       technology: "MERN",
