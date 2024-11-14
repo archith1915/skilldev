@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(cors());
 
-mongoose.connect('mongodb+srv://jaarchith:archith@food.lrteo.mongodb.net/');
+mongoose.connect('');
 
 app.post('/insert', async(req, res) => {
     const foodName = req.body.foodName;
