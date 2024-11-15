@@ -59,7 +59,7 @@ function TrainerEdit() {
         <a href="/trainers/list" className="btn btn-dark">
           &lt;&lt;Go Back
         </a>
-        <h3>Edit Trainers</h3>
+        <h3>Edit entry</h3>
 
         <div class="container">
           <div className="form-group">
